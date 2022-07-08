@@ -1,0 +1,44 @@
+[
+  {
+    "color": "#FFC54D",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit",
+    "tablet": "1",
+    "title": "Familia",
+    "className": "card-area-sm"
+  },
+  {
+    "color": "#FFC54D",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit",
+    "tablet": "2",
+    "title": "Familia",
+    "className": "card-area-sm"
+  },
+  {
+    "color": "#FFC54D",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit",
+    "tablet": "3",
+    "title": "Familia",
+    "className": "card-area-sm"
+  },
+  {
+    "color": "#FFC54D",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit",
+    "tablet": "4",
+    "title": "Familia",
+    "className": "card-area-sm"
+  },
+  {
+    "color": "#FFC54D",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit",
+    "tablet": "5",
+    "title": "Familia",
+    "className": "card-area-sm"
+  },
+  {
+    "color": "#FFC54D",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit",
+    "tablet": "6",
+    "title": "Familia",
+    "className": "card-area-sm"
+  }
+]
