@@ -1,0 +1,20 @@
+.nav-links {
+  @apply transition-[clip-path] duration-500;
+  clip-path: circle(0% at 100% 0);
+}
+.nav-links.active {
+  clip-path: circle(141.2% at 100% 0);
+}
+
+@media screen and (min-width: 1024px) {
+  .nav-links {
+    clip-path: circle(141.2% at 100% 0);
+  }
+}
+
+.nav-links-dropdown:hover ul {
+  @apply opacity-100 pointer-events-auto;
+}
+.nav-links-dropdown:hover svg {
+  @apply rotate-180;
+}
