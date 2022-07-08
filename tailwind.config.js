@@ -1,7 +1,11 @@
 module.exports = {
   content: ['./components/**/*.tsx', './pages/**/*.tsx'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        body: ['Montserrat', 'sans-serif']
+      },
+    }
   },
-  plugins: [],
+  plugins: []
 }
