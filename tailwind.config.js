@@ -56,6 +56,9 @@ module.exports = {
           }
         }
       },
+      animation: {
+        scrolldown: 'scrolldown 3s infinite'
+      }
     }
   },
   plugins: []
