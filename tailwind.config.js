@@ -33,6 +33,28 @@ module.exports = {
           '0%': { opacity: 0 },
           '100%': { opacity: 0.5 }
         },
+        scrolldown: {
+          '0%': {
+            opacity: 0,
+            height: '6px'
+          },
+
+          '40%': {
+            opacity: 1,
+            height: '10px'
+          },
+
+          '80%': {
+            transform: 'translate(0, 20px)',
+            height: '10px',
+            opacity: 0
+          },
+
+          '100%': {
+            height: '3px',
+            opacity: 0
+          }
+        }
       },
     }
   },
