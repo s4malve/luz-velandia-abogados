@@ -1,3 +1,157 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.article-header-links li:not(:last-child)::after {
+  content: '>';
+  margin-left: 8px;
+}
+
+@layer base {
+  html {
+    @apply font-body selection:bg-blue-100 text-dark dark:selection:bg-blue-100 dark:selection:text-dark scroll-smooth;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-semibold;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl;
+  }
+
+  h2 {
+    @apply text-3xl;
+  }
+
+  p {
+    @apply text-dark-72;
+  }
+
+  img {
+    @apply rounded-lg;
+  }
+
+  input,
+  textarea {
+    @apply w-full px-4 py-3 border rounded-lg outline-none text-dark focus:border-primary/75;
+  }
+
+  /* CONTAINERS */
+  .wrapper {
+    @apply mx-auto max-w-[1128px] w-[95.6%] overflow-x-hidden sm:overflow-visible sm:w-11/12;
+  }
+  .wrapper-article {
+    @apply grid gap-y-4;
+  }
+  .content-container {
+    @apply py-16 md:py-12;
+  }
+
+  .btn {
+    @apply flex items-center justify-between px-4 py-2 rounded gap-x-2;
+  }
+
+  .btn-lg {
+    @apply px-10;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-brilliance max-w-fit hover:bg-primary/95 active:bg-primary/90;
+  }
+
+  .btn-icon {
+    @apply p-2 w-fit;
+  }
+
+  .btn-outline {
+    @apply p-2 border rounded border-inherit text-dark/75 hover:bg-dark/5 active:bg-dark/10;
+  }
+
+  .btn-outline-dark {
+    @apply border border-brilliance/70 text-brilliance hover:bg-brilliance/5 active:bg-brilliance/10;
+  }
+
+  .btn-hamburger {
+    @apply flex flex-col h-[19px] justify-between w-[28px];
+  }
+
+  .btn-with-icon {
+    @apply flex items-center justify-center py-2 text-sm font-semibold border rounded gap-x-2;
+  }
+
+  .btn-whatsapp {
+    @apply text-whatsapp border-whatsapp hover:bg-whatsapp/5 active:bg-whatsapp/10;
+  }
+
+  .btn-gmail {
+    @apply text-gmail border-gmail hover:bg-gmail/5 active:bg-gmail/10;
+  }
+
+  .btn-areas {
+    @apply transition-colors border-transparent text-dark/75;
+  }
+
+  .btn-family {
+    @apply hover:text-golden-promise hover:border-golden-promise;
+  }
+
+  .btn-civil {
+    @apply hover:text-spinel-red hover:border-spinel-red;
+  }
+
+  .btn-circuit {
+    @apply hover:text-expressionism-green hover:border-expressionism-green;
+  }
+
+  .line-hamburger {
+    @apply bg-current rounded-lg inline-block h-[3px] w-full;
+  }
+
+  .links {
+    @apply hover:underline;
+  }
+
+  .links-semi {
+    @apply hover:underline;
+  }
+
+  .scrolldown {
+    --sizeX: 24px;
+    --sizeY: 38px;
+    border-radius: 50px;
+    border: calc(var(--sizeX) / 10) solid currentColor;
+    box-sizing: border-box;
+    height: var(--sizeY);
+    position: relative;
+    width: var(--sizeX);
+  }
+
+  .scrolldown::before {
+    @apply animate-scrolldown;
+    background-color: currentColor;
+    border-radius: 100%;
+    bottom: 30px;
+    box-sizing: border-box;
+    content: '';
+    height: 6px;
+    left: 50%;
+    margin-left: -3px;
+    position: absolute;
+    width: 6px;
+  }
+
+  .how-we-work--card-top li:nth-child(odd) {
+    @apply hidden;
+  }
+  .how-we-work--card-bottom li:nth-child(even) {
+    @apply hidden;
+  }
+
+  .area-card {
+    @apply transition-transform hover:-translate-y-2;
+  }
+}
