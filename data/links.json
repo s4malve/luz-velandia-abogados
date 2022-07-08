@@ -1,0 +1,106 @@
+[
+  {
+    "name": "home",
+    "href": "/",
+    "title": "Inicio",
+    "links": []
+  },
+  {
+    "name": "family",
+    "href": "",
+    "title": "Familia",
+    "links": [
+      {
+        "name": "family",
+        "href": "/areas/familia",
+        "title": "Ver Todos",
+        "links": []
+      },
+      {
+        "name": "union-marital",
+        "href": "#",
+        "title": "Unión Marital",
+        "links": []
+      },
+      {
+        "name": "divorcio",
+        "href": "#",
+        "title": "Divorcio",
+        "links": []
+      },
+      {
+        "name": "alimentos",
+        "href": "#",
+        "title": "Alimentos",
+        "links": []
+      }
+    ]
+  },
+  {
+    "name": "areas",
+    "href": "",
+    "title": "Áreas",
+    "links": [
+      {
+        "name": "areas",
+        "href": "/areas",
+        "title": "Ver Todos",
+        "links": []
+      },
+      {
+        "name": "civil",
+        "href": "/areas/civil",
+        "title": "Civil",
+        "links": [
+          {
+            "href": "#",
+            "name": "example-1",
+            "title": "Example 1"
+          },
+          {
+            "name": "example-2",
+            "href": "#",
+            "title": "Example 2"
+          }
+        ]
+      },
+      {
+        "name": "circuito",
+        "href": "/areas/circuito",
+        "title": "Circuito",
+        "links": [
+          {
+            "name": "example-1",
+            "href": "#",
+            "title": "Example 1",
+            "links": []
+          },
+          {
+            "name": "example-2",
+            "href": "#",
+            "title": "Example 2",
+            "links": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "about-us",
+    "href": "/acerca-de",
+    "title": "Acerca de",
+    "links": []
+  },
+  {
+    "name": "contact",
+    "href": "/contacto",
+    "title": "Contacto",
+    "links": []
+  },
+  {
+    "name": "faq",
+    "href": "/faq",
+    "title": "FAQ",
+    "links": []
+  }
+]
