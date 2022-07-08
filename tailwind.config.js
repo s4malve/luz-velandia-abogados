@@ -28,6 +28,12 @@ module.exports = {
         'comments-desktop':
           'linear-gradient( 90deg, rgba(21, 26, 44, 0.65) 0%, rgba(21, 26, 44, 0) 84.18%)'
       },
+      keyframes: {
+        pulse: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 0.5 }
+        },
+      },
     }
   },
   plugins: []
